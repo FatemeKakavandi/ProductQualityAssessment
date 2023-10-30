@@ -5,12 +5,12 @@ import pandas as pd
 from sklearn.metrics import f1_score,confusion_matrix, recall_score, precision_score
 
 def load_baseline():
-    df = pd.read_csv('./data_sources/baseline.csv')
+    df = pd.read_csv('./data_sources/Data/baseline.csv')
     return df
 
 
 def load_fault_set():
-    df = pd.read_csv('./data_sources/fault_set.csv')
+    df = pd.read_csv('./data_sources/Data/fault_set.csv')
     return df
 
 
