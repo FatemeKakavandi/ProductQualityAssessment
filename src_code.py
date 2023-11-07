@@ -113,9 +113,9 @@ def confusion_matrix(y_true,y_hat):
 
 
 def model_results(y_true, y_hat):
-    f1 = f1_score(y_true,y_hat)
-    recal = recall_score(y_true,y_hat)
-    pre = precision_score(y_true,y_hat)
+    f1 = f1_score(y_true,y_hat,average='micro')
+    recal = recall_score(y_true,y_hat,average='micro')
+    pre = precision_score(y_true,y_hat,average='micro')
     return f1,recal, pre
 
 
