@@ -60,7 +60,7 @@ plt.axvline(n_features // 10, color='gray', linestyle='--', label='Abnormal Patt
 plt.title('Stacked Sine Wave Data (Samples on Rows, Features on Columns)')
 plt.xlabel('Time')
 plt.ylabel('Value')
-
+plt.savefig('data.png')
 # Normalizing the data
 #base_data = zero_mean_normalize(base_data)
 #faulty_data = zero_mean_normalize(faulty_data)
@@ -190,6 +190,9 @@ stor_perf_df(mac_f1_test_df,'Mac_F1_Test')
 
 plt.figure()
 plt.bar(np.arange(len(mic_f1_df)),np.mean(mic_f1_df,axis=1))
+plt.savefig('val_per.png')
+plt.figure()
 plt.bar(np.arange(len(mic_f1_test_df)),np.mean(mic_f1_test_df,axis=1))
+plt.savefig('test_per.png')
 
 plt.show()
