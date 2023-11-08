@@ -12,7 +12,7 @@ To generate the samples the user can run the **Making_dataset.py** code. The num
 ## Model Tuning 
 For hyper-parameter tuning, we use a One-Anomaly-Out approach. The overall idea is to kick one of the anomaly samples out in the training and validation process and keep that sample for the test time. This can give us an overview of the model performance and is a validation technique for hyper-parameter selection. By averaging the values of each iteration, we can select the hyper parameter that has the highest performance in the validation process. 
 
-In **OCSVM** the the abnormal samples are only involved in the validation and test process therefore, all of abnormal samples minus one of them are used to validate the model and one remaining sample together with test normal samples are used to test the model. However in $\nuSVC$ the abnormal samples are used in train, validation and test process. 
+In **OCSVM** the the abnormal samples are only involved in the validation and test process therefore, all of abnormal samples minus one of them are used to validate the model and one remaining sample together with test normal samples are used to test the model. However in $\nu$-SVC the abnormal samples are used in train, validation and test process. 
 
 
 ## References 
@@ -21,5 +21,5 @@ For further details about the performance of the models in real industrial datas
 
 <a id="1">[1]</a> 
 F. Kakavandi, R. de Reus, C.Gomes, N. Heidari, A. Iosifidis, P.G. Larsen. (2022). 
-Product Quality Control in Assembly Machine under Data Restricted Settings. 
+"Product Quality Control in Assembly Machine under Data Restricted Settings". 
 IEEE 20th International Conference on Industrial Informatics (INDIN), 735-741.
