@@ -22,4 +22,4 @@ For further details about the performance of the models in real industrial datas
 <a id="1">[1]</a> 
 F. Kakavandi, R. de Reus, C.Gomes, N. Heidari, A. Iosifidis, P.G. Larsen. (2022). 
 "Product Quality Control in Assembly Machine under Data Restricted Settings". 
-IEEE 20th International Conference on Industrial Informatics (INDIN), 735-741.
+IEEE 20th International Conference on Industrial Informatics (INDIN), 735-741. [https://doi.org/10.1109/INDIN51773.2022.9976173]
